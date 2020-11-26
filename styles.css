@@ -77,8 +77,9 @@ hr {
 
 .name {
     display: flex;
-    margin-left: 32%;
+    margin-left: 33%;
     margin-bottom: -10%;
+    
 }
 
 .age {
@@ -112,7 +113,8 @@ hr {
 }
 
 .first__part {
-    margin-bottom: -5px;
+    margin-bottom: -5px; 
+    
 }
 
 .info {
