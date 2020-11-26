@@ -1,120 +1,124 @@
-body{
+body {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-.card { 
+.card {
     margin: 0 auto;
     width: max-content;
     align-content: center;
     border-radius: 10px;
     z-index: 2;
     padding-bottom: 10px;
-    left: 40%;    
-    background-color: white;   
-  }
-  
-  
-  /* Add some padding inside the card container */
-  .container {
+    left: 40%;
+    background-color: white;
+}
+
+/* Add some padding inside the card container */
+
+.container {
     padding: 2px 16px;
-    align-items: center;   
-    width:300px;
+    align-items: center;
+    width: 300px;
     object-fit: contain;
     border-radius: 10px;
-  }
-  .top__right{
+}
+
+.top__right {
     background-image: url(./assets/bg-pattern-top.svg);
     margin-right: 45%;
-   height: 320px;   
-   z-index: 1;
-   margin-bottom: -160px;
+    height: 320px;
+    z-index: 1;
+    margin-bottom: -160px;
     background-repeat: no-repeat;
     transform: rotate(180deg);
-    
-  }
-  .bottom__left{
-      background-image: url(./assets/bg-pattern-bottom.svg);
-      margin-left: 45%;
-      height: 320px;
-      background-repeat: no-repeat;
-      /* top: -220px; */
-      margin-top: 0px;
-      z-index: 1;
-     
+}
 
-  }
-  .profile{
-      width: 100px;
-      border-radius: 100%;
-      margin-left: 35%;
-      margin-right: 35%;
-      position: relative;
-      bottom: 40px;
-      box-shadow: 0px 0px 0px 5px #fff;
-     
-      margin-bottom:-55px;
-      z-index: 1;
-      
-  }
-  .card__container{
-     width: 1440px;
-     /* height: 768px; */
-      display: flexbox;
-      margin-left: 0;
-      background-color:hsl(185, 75%, 39%);
-  }
-  .name{
-      display: flex;
-      /* justify-content: space-around; */
-      margin-left: 28%;
-     margin-bottom: -10%;
-  }
-  p{
-     margin-left: 40%;
-     margin-top: 10px;
-     color: hsl(0, 0%, 59%);
-  } 
-  .age{
-      color: gray;
-      font-weight: 400;
-      margin-left: 10px;
-  }
-  .numerics{
-      display: flex;
-      justify-content: space-evenly;
-  }
-  .more__info{
+.bottom__left {
+    background-image: url(./assets/bg-pattern-bottom.svg);
+    margin-left: 45%;
+    height: 320px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    z-index: 1;
+}
+
+.profile {
+    width: 100px;
+    border-radius: 100%;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: relative;
+    bottom: 40px;
+    box-shadow: 0px 0px 0px 5px #fff;
+    margin-bottom: -55px;
+    z-index: 1;
+}
+
+.card__container {
+    width: 1440px;    
+    display: flexbox;
+    margin-left: 0;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.name {
+    display: flex;  
+    margin-left: 28%;
+    margin-bottom: -10%;
+}
+
+p {
+    margin-left: 40%;
+    margin-top: 10px;
+    color: hsl(0, 0%, 59%);
+}
+
+.age {
+    color: gray;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.numerics {
     display: flex;
     justify-content: space-evenly;
-    margin-top: -30px;  
-    margin-right: 10%; 
-    margin-left: -18%; 
-    /* margin-left: -10%; */
+}
+
+.more__info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -30px;
+    margin-right: 10%;
+    margin-left: -18%;    
     width: 100%;
-  }
-  .backgroudimg{
-      width: 100%;
-      background-image:url(./assets/bg-pattern-card.svg);
-      min-height: 120px;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-      z-index: -2;
-      margin-bottom: -10px;
-  }
-  h5{
-      font-size: 18px;
-      font-weight: 700;
-  }
-  hr{
-      height: 0.5px;
-      margin-bottom: -10px;
-      background-color: hsl(227, 10%, 46%)
-      /* border-s: none; */
-  }
-  .first__part{
-      margin-bottom: -5px;
-  }
-  .info{
-      margin-left: 60px;
-      font-weight: 400;
-  }
+}
+
+.backgroudimg {
+    width: 100%;
+    background-image: url(./assets/bg-pattern-card.svg);
+    min-height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: -2;
+    margin-bottom: -10px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+hr {
+    height: 0.5px;
+    margin-bottom: -10px;
+    background-color: hsl(227, 10%, 46%)  
+}
+
+.first__part {
+    margin-bottom: -5px;
+}
+
+.info {
+    margin-left: 60px;
+    font-weight: 400;
+}
